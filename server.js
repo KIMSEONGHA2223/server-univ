@@ -19,7 +19,7 @@ const connection = mysql.createConnection({
 });
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!!');
+    res.send('나를 죽이지 못하는 고통은...');
 });
 
 
